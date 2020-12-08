@@ -1,15 +1,71 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+header{
+    margin: auto;
+    height: 20vh;
+    background: linear-gradient(to right, rgb(255, 255, 0), rgb(208, 255, 0));
+    text-align: center;
+    padding-top: 8%;
+}
+
+#hero-heading{
+    
+}
+
 #txt-area{
     width: 80%;
     height: 10vh;
     display: block;
     padding: 1rem;
-    margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
+
+#btn-translate{
+    width: 10rem;
+    height: 4rem;
+    border-radius: 20%;
+    background-color: yellow;
+    font-size: 1.2rem;
+    border-radius: 1px solid black;
+}
+
+#output-heading{
+    margin-top: 5%;
+}
+
+
 
 #output{
     border: 1px solid black;
     width: 80%;
     height: 10vh;
-    margin: 1rem;
+    margin: auto;
+    margin-top: 3%;
     padding: 1rem;
+}
+
+footer{
+    margin-top: 2%;
+    height: 12vh;
+    background: linear-gradient(to right, rgb(255, 255, 0), rgb(208, 255, 0));
+    text-align: center;
+    padding-top: 5%;
+}
+
+#minion1{
+    height: 10rem;
+    width: auto;
 }
