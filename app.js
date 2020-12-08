@@ -2,9 +2,10 @@ var btnTranslate = document.querySelector("#btn-translate");
 
 var txtArea = document.querySelector("#txt-area");
 
+var outputBox = document.querySelector("#output")
+
 btnTranslate.addEventListener("click", () => {
-        console.log("I got clicked!");
-        console.log(txtArea.value)
+        outputBox.innerHTML = txtArea.value;
     });
 
 
