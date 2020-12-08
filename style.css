@@ -1,4 +1,7 @@
 #txt-area{
     width: 80%;
-    
+    height: 10vh;
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
 }
