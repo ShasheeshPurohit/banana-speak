@@ -7,7 +7,7 @@
 }
 
 body{
-    width: 55%;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
@@ -43,8 +43,8 @@ header{
     padding: 1rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
-    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 #btn-translate{
@@ -57,7 +57,7 @@ header{
 }
 
 #output-heading{
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 
@@ -72,7 +72,7 @@ header{
 }
 
 footer{
-    margin-top: 7%;
+    margin-top: 5%;
     
     background: linear-gradient(to right, rgb(255, 255, 0), rgb(208, 255, 0));
     text-align: center;
