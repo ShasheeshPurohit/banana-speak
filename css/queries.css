@@ -5,6 +5,11 @@
 }
 
 @media screen and (max-width: 630px){
+
+    body{
+        width: 80%;
+    }
+
     #hero-heading{
         font-size: 1rem;
     }
