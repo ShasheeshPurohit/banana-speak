@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -12,14 +14,26 @@ body{
 
 header{
     margin: auto;
-    height: 20vh;
+    height: 15vh;
     background: linear-gradient(to right, rgb(255, 255, 0), rgb(208, 255, 0));
     text-align: center;
-    padding-top: 8%;
+    padding-top: 3%;
 }
 
 #hero-heading{
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    font-family: 'Nerko One', cursive;
+    color: rgb(3, 88, 24);
+    font-size: 3rem;
+    font-style: italic;
+    display: inline-block;
     
+}
+
+#minion-hero{
+    width: 4rem;
+    height: auto;
 }
 
 #txt-area{
@@ -39,7 +53,7 @@ header{
     border-radius: 20%;
     background-color: yellow;
     font-size: 1.2rem;
-    border-radius: 1px solid black;
+    outline: none;
 }
 
 #output-heading{
@@ -58,7 +72,7 @@ header{
 }
 
 footer{
-    margin-top: 2%;
+    margin-top: 7%;
     height: 12vh;
     background: linear-gradient(to right, rgb(255, 255, 0), rgb(208, 255, 0));
     text-align: center;
@@ -68,4 +82,20 @@ footer{
 #minion1{
     height: 10rem;
     width: auto;
+}
+
+footer p{
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s;
+}
+
+.link:hover{
+    border-bottom: 1px solid black;
 }
