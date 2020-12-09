@@ -7,7 +7,7 @@
 }
 
 body{
-    width: 800px;
+    width: 55%;
     margin: auto;
     text-align: center;
 }
@@ -73,10 +73,9 @@ header{
 
 footer{
     margin-top: 7%;
-    height: 12vh;
+    
     background: linear-gradient(to right, rgb(255, 255, 0), rgb(208, 255, 0));
     text-align: center;
-    padding-top: 5%;
 }
 
 #minion1{
@@ -86,7 +85,7 @@ footer{
 
 footer p{
     font-weight: 600;
-    letter-spacing: 0.1rem;
+
 }
 
 .link{
@@ -96,6 +95,22 @@ footer p{
     transition: all 0.2s;
 }
 
+.link-heading{
+    margin-top: 2%;
+}
+
 .link:hover{
     border-bottom: 1px solid black;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+}
+
+.social-link-item{
+    margin: 1rem;
 }
